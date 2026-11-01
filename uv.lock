@@ -9,6 +9,7 @@ source = { editable = "." }
 dependencies = [
     { name = "matplotlib" },
     { name = "networkx" },
+    { name = "numpy" },
     { name = "pyqt6" },
 ]
 
@@ -16,6 +17,7 @@ dependencies = [
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "networkx", specifier = ">=3.7" },
+    { name = "numpy", specifier = ">=2.5.3" },
     { name = "pyqt6", specifier = ">=6.11.0" },
 ]
 
